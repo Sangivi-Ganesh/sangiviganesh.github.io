@@ -5,7 +5,7 @@
 }
 
 body{
-    background:#07111f;
+    background:#020617;
     color:white;
     font-family:Arial, sans-serif;
 }
@@ -17,30 +17,29 @@ body{
     padding:40px 0;
 }
 
-/* TOP SECTION */
+/* TOPBAR */
 
 .topbar{
     display:flex;
     justify-content:space-between;
-    align-items:flex-start;
-    flex-wrap:wrap;
+    align-items:center;
     gap:20px;
 }
 
 .left h1{
-    font-size:4rem;
+    font-size:3.5rem;
     margin-bottom:10px;
+    line-height:1.1;
 }
 
 .degree{
     color:#94a3b8;
-    font-size:1.1rem;
+    font-size:1rem;
 }
 
 .right{
     display:flex;
     gap:15px;
-    margin-top:10px;
 }
 
 .icon{
@@ -76,27 +75,27 @@ hr{
 }
 
 .about h2{
-    font-size:2.3rem;
+    font-size:2.2rem;
     margin-bottom:20px;
 }
 
 .about p{
-    max-width:850px;
-    line-height:1.8;
+    max-width:800px;
     color:#cbd5e1;
+    line-height:1.8;
     font-size:1.05rem;
 }
 
 /* CERTIFICATES */
 
 .certificates h2{
-    font-size:2.3rem;
+    font-size:2.2rem;
     margin-bottom:35px;
 }
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
     gap:25px;
 }
 
@@ -114,19 +113,18 @@ hr{
 }
 
 .card h3{
+    font-size:1.4rem;
     margin-bottom:12px;
-    font-size:1.5rem;
 }
 
 .card p{
     color:#94a3b8;
     margin-bottom:20px;
-    line-height:1.5;
 }
 
 .card a{
-    text-decoration:none;
     color:#38bdf8;
+    text-decoration:none;
     font-weight:bold;
 }
 
@@ -149,12 +147,11 @@ footer{
     }
 
     .left h1{
-        font-size:2.8rem;
+        font-size:2.6rem;
     }
 
-    .about h2,
-    .certificates h2{
-        font-size:2rem;
+    .right{
+        margin-top:10px;
     }
 
 }
